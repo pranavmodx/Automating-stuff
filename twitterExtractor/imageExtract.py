@@ -1,10 +1,10 @@
 import tweepy
 import wget
 
-consumer_key = "vFPG1asGLNNM3qV8pWoYptJTl"
-consumer_secret = "ed68y4Gyf5gS1AZQg4RoU3N44uxTzajFAIyzUT2G0OM0ZHj4VU"
-access_token = "2965059837-0jVHykIe1NWJPbW1K8SwEMdQJHgSsnEomH0wyjl"
-access_token_secret = "MqXbn4IU6fafRZgeqgLetFxeiP3AzyPhYzRlPPINLwiST"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
