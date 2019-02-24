@@ -24,5 +24,5 @@ def twitterHashtagImageExtract(hashtag):
         for media_file in media_files:
             wget.download(media_file)
         print(tweet.text)
-       
+
 twitterHashtagImageExtract('insert hashtag here')
